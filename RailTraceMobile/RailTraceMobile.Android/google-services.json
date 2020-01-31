@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1006029253896",
+    "firebase_url": "https://railtracenotifications.firebaseio.com",
+    "project_id": "railtracenotifications",
+    "storage_bucket": "railtracenotifications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1006029253896:android:3b1758883cb418dd",
+        "android_client_info": {
+          "package_name": "com.companyname.RailTraceMobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1006029253896-r6idceeov5nh7b2bme9kbs0al8tmn378.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjTH1S-RgZP6h367n-7f431r6TzGtLt0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1006029253896-r6idceeov5nh7b2bme9kbs0al8tmn378.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

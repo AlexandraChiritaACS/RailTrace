@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RailTraceMobile.Views.Transaction" >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="IBAN" TextColor="#000037"/>
+            <Entry x:Name="Entry_Username"  TextColor="#990e0f"/>
+            <Label Text="Sum" TextColor="#000037" />
+            <Entry x:Name="Entry_Password"  TextColor="#a0b2ec"/>
+            <Button x:Name="Send_Code" Text="Confirmation Code" Clicked="SendCode" TextColor="#ffffff" BackgroundColor="#000037"/>
+
+            <Label Text="Code" TextColor="#000037" />
+            <Entry x:Name="RandomCode"  TextColor="#a0b2ec"/>
+            
+            <Button x:Name="Finish" Text="Finish" Clicked="FinishProcedure" TextColor="#ffffff" BackgroundColor="#000037"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

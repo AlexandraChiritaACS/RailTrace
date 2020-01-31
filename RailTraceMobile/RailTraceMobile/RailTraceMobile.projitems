@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{F0C6B264-4CF4-44E9-B765-427047B9B8F8}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>RailTraceMobile</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)App.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AdvisorAnalysis.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Constants.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\RegEntity1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\RegEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SqlHelper1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SqlHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Token.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\User.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Admin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Advisor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ApiClient.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Callbacks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CometChatFormCallback.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CometChatInterface.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\CometChatLaunchCallbacks.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Documentation.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LaunchCallbackImplementation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LessonPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ListViewTrans.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MapsApi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MapsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MenuPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Page1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Page2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\PinPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Statistics.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\TodoItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ToDoItemManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ToDoList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Transaction.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Webi.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Webi1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\LoginPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MenuPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Admin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)AdvisorImg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Alexandra2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Data\bcr.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Data\Buletin.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Files.txt" />
+    <Content Include="$(MSBuildThisFileDirectory)Views\BOT23.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)Views\cometchat_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Statistics.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\Advisor.xaml.cs">
+      <DependentUpon>Advisor.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\Documentation.xaml.cs">
+      <DependentUpon>Documentation.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\LessonPage.xaml.cs">
+      <DependentUpon>LessonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\ListViewTrans.xaml.cs">
+      <DependentUpon>ListViewTrans.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\Maps.xaml.cs">
+      <DependentUpon>Maps.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\MapsApi.xaml.cs">
+      <DependentUpon>MapsApi.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\MapsMain.xaml.cs">
+      <DependentUpon>MapsMain.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\MapsPage.xaml.cs">
+      <DependentUpon>MapsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\PinPage.xaml.cs">
+      <DependentUpon>PinPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\ToDoList.xaml.cs">
+      <DependentUpon>ToDoList.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\Transaction.xaml.cs">
+      <DependentUpon>Transaction.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\UbidotsBrowser.xaml.cs">
+      <DependentUpon>UbidotsBrowser.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\Webi.xaml.cs">
+      <DependentUpon>Webi.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="C:\Users\dell\source\repos\RailTraceMobile - Copy\RailTraceMobile\RailTraceMobile\Views\Webi1.xaml.cs">
+      <DependentUpon>Webi1.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MapsPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\PinPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\MapsApi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Page1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ToDoList.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Page2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Webi.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Documentation.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Webi1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Advisor.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Model.csv" />
+    <None Include="$(MSBuildThisFileDirectory)Model.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\LessonPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Transaction.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ListViewTrans.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

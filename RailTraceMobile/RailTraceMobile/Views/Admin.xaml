@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>    
+    
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="RailTraceMobile.Views.Admin" Title="Application" BackgroundColor="#a0b2ec">
+   
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+               
+                <Setter Property="TextColor" Value="Red" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout Padding="0,20,0,0">
+            <StackLayout.Resources>
+                <ResourceDictionary>
+                    <Style x:Key="buttonStyle" TargetType="Button">
+                      
+                        <Setter Property="TextColor" Value="Blue" />
+                    </Style>
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            
+            <Button x:Name="B1" Text="Tasks" Style="{StaticResource buttonStyle}" Clicked="Tasks" TextColor="#ffffff" BackgroundColor="#000037"/>
+            <Button x:Name="B2" Text="See Map" Style="{StaticResource buttonStyle}" Clicked="DisplayMap" TextColor="#ffffff" BackgroundColor="#000037"/>
+            <Button x:Name="B3" Text="Statistics" Style="{StaticResource buttonStyle}" Clicked="ShowStatistics" TextColor="#ffffff" BackgroundColor="#000037"/>
+            <Button x:Name="B6" Text="Schedule"  Style="{StaticResource buttonStyle}" Clicked="ScheduleFunctions" TextColor="#ffffff" BackgroundColor="#000037"/>
+            <Button x:Name="B7" Text="Advisor" Style="{StaticResource buttonStyle}" Clicked="AdvisorFunctions" TextColor="#ffffff" BackgroundColor="#000037"/>
+            <Button x:Name="B8" Text="Maintenance" Style="{StaticResource buttonStyle}" Clicked="CloudFunctions" TextColor="#ffffff" BackgroundColor="#000037"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
